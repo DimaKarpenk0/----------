@@ -4,6 +4,13 @@
     background-color: #EFEFEF;
     font-family: "Comfortaa", sans-serif;
 }
+.header {
+    padding-top: 50px
+}
+.header__container {
+    text-align: center;
+    padding: 30px 20px;
+}
 /* table */
 table {
     margin: 20px;
