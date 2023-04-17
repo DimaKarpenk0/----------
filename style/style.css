@@ -4,18 +4,22 @@
     background-color: #EFEFEF;
     font-family: "Comfortaa", sans-serif;
 }
+.main {
+    background-color: #EFEFEF;
+}
 .header {
     padding-top: 50px
 }
 .header__container {
     text-align: center;
-    padding: 30px 20px;
+    padding: 30px;
 }
 /* table */
 table {
     margin: 20px;
     width: 100%;
     border-collapse:collapse ;
+    background-color: white;
 }
 td {
     text-align: center;
@@ -34,9 +38,34 @@ caption {
 /* button */
 .button {
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 60px 0;
+    color: #8E8E8E;
+
 }
 button {
     padding: 30px;
     border-radius:10px ;
+    border: 0;
+    background-color: white;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    
 }
+.bottom_btn {
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+.right_btn {
+    margin-right: 40px;
+}
+
+.left_btn {
+    margin-left: 40px;
+    padding:30px 50px 30px 50px ;
+}
+
+button:hover {
+    background-color: #8E8E8E;
+    color: white;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  }
